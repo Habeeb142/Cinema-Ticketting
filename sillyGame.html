@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function babybaby()
+		{	
+			text=[];
+			baby.style.top=parseInt(Math.random()*500).toString()+"px";
+			baby.style.left=parseInt(Math.random()*1000).toString()+"px";
+			text=['Hover me if you want catch you','You cannot catch me kan kan','Emiiiii clown','You can stil try harder my dear', 'It seems luck is against you o','Dont give up' , 'You can do it', 'I laughhhhhhhhhh'];
+			txt.innerHTML=text[parseInt(Math.random()*3+Math.random()*3)]
+		}
+	</script>
+
+	<style type="text/css">
+		#baby
+		{
+			width: 30px;
+			
+			position: absolute;
+			border-radius: 50px
+		}
+	</style>
+</head>
+<body style="background-color: grey">
+	
+	<div id="baby" onmouseover="babybaby()"><img src="baby.jpg" style="width: 70px; height: 15vh; border-radius: 40px"></div>
+	<div id="txt" style="background-color: white; color: grey; font-size: 50px; font-family: arial; width: 70%; text-align: center; margin-left: 200px; border-radius: 30px"></div>
+	
+</body>
+</html>
